@@ -1,0 +1,120 @@
+/* ChatGptSidebar.css */
+
+.chatgpt-sidebar {
+    width: 250px;
+    background-color: #1a1919;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    height: 650px;
+    overflow-y: auto;
+    
+  }
+
+  ::-webkit-scrollbar{
+    background-color: transparent;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .menu-item2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    justify-content: space-between;
+  }
+  
+  .menu-item:hover {
+    background-color: #131111;
+  }
+  
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+
+  /* ChatGptTextInput.css */
+
+.chatgpt-text-input {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 1500px;
+  height: 50px;
+  background-color: rgb(52,53,65);
+  opacity: 0.9;
+}
+
+input[type='text'] {
+  border: none;
+  flex: 1;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #feffff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.textStyle{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.textClass{
+  height:600px;
+  width: 1519px;
+  background-color: rgb(52,53,65);
+  margin-bottom: 10px;
+  color: white;
+  overflow-y: auto;
+}
+
+.divClass{
+  height: 400;
+  padding: 75px;
+  width: auto;
+  /* display: flex; */
+}
+
+
+
+
+
+
+  
